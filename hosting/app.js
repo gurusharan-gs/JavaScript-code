@@ -11,10 +11,18 @@ function getName() {
 
 /*-----------------------------------*/
 
+// let n = 20;
+// function myName() {
+//   console.log("guru");
+// }
+
+// myName();
+// console.log(n);
+
 let n = 20;
+myName();
+console.log(n);
+
 function myName() {
   console.log("guru");
 }
-
-myName();
-console.log(n);
