@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+          * {
+               padding: 0;
+               margin: 0;
+          }
+
+          .card {
+               width: 300px;
+               background-color: #fff;
+               border-radius: 8px;
+               box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+               overflow: hidden;
+               margin: 20px;
+               display: flex;
+               flex-direction: column;
+               gap: 5px;
+               padding: 20px 10px;
+
+          }
+
+          .card-image {
+               width: 100%;
+               height: 150px;
+               object-fit: cover;
+               display: block;
+          }
+
+          .card-content {
+               display: flex;
+               flex-direction: column;
+               gap: 8px;
+          }
+
+          .card-title {
+               font-size: 1.5em;
+
+          }
+
+          .card-price {
+               color: #27ae60;
+               font-weight: bold;
+          }
+
+          .card-rating {
+               color: #f39c12;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="card">
+          <img class="card-image" src="https://cdn.dummyjson.com/product-images/1/1.jpg" alt="Card Image">
+          <div class="card-content">
+               <h2 class="card-title">Product Name</h2>
+               <p class="card-price">$19.99</p>
+               <p class="card-rating">Rating: 4.5/5</p>
+          </div>
+     </div>
+</body>
+
+</html>
