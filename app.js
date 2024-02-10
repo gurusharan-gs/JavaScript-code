@@ -70,6 +70,29 @@ let obj = {
 // m = 20;
 // console.log(m);
 
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+/** Palindrome Checking */
+
+const isPalindrome = (str) => {
+  let left = 0;
+  let right = str.length - 1;
+
+  while (left < right) {
+    if (str.charAt(left) !== str.charAt(right)) {
+      return false;
+    }
+    left++;
+    right--;
+  }
+  return true;
+};
+
+let str = "ama";
+if (isPalindrome(str)) {
+  console.log("true");
+} else {
+  console.log("false");
 }
