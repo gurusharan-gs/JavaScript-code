@@ -96,3 +96,9 @@ if (isPalindrome(str)) {
 } else {
   console.log("false");
 }
+
+/**
+ *          --- isPalindrome ---
+ * 1. The time complexity of this code O(n)
+ * 2. The space complexity of this code O(1)
+ */
