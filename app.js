@@ -81,7 +81,7 @@ const isPalindrome = (str) => {
   let right = str.length - 1;
 
   while (left < right) {
-    if (str.charAt(left) !== str.charAt(right)) {
+    if (str[left] !== str[right]) {
       return false;
     }
     left++;
