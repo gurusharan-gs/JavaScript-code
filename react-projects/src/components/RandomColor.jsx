@@ -48,6 +48,7 @@ const RandomColor = () => {
           alignItems: "center",
         }}
       >
+        <h1>{colorType === "hex" ? "hex color" : "rgb color"}</h1>
         <h3>{color}</h3>
         <button onClick={() => setColorType("rgb")}>RBG</button>
         <button onClick={() => setColorType("hex")}>HEX</button>

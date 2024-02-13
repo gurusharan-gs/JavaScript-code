@@ -1,6 +1,7 @@
 import "./App.css";
 import Password from "./components/Password";
 import RandomColor from "./components/RandomColor";
+import StarRating from "./components/star-rating/StarRating";
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
         {/* <Password /> */}
 
         {/* Random Color */}
-        <RandomColor />
+        {/* <RandomColor /> */}
+
+        {/* Star Rating */}
+        <StarRating />
       </div>
     </>
   );

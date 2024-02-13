@@ -20,19 +20,28 @@ let obj = {
 };
 
 let { ...rest } = obj;
-console.log(rest);
+// console.log(rest);
 
 const { a, ...others } = { a: 1, b: 2, c: 3 };
-console.log(a); // 1
-console.log(others); // {b:2, c:3}
+// console.log(a); // 1
+// console.log(others); // {b:2, c:3}
 
 // ):
 
 // Spread syntax (...)
 
-function sum(a, b, c) {
-  return a + b + c;
-}
+// function sum(a, b, c) {
+//   return a + b + c;
+// }
 
-const number = [1, 2, 3];
-console.log(sum(...number)); // sum = 6
+// const number = [1, 2, 3];
+// console.log(sum(...number)); // sum = 6
+
+let count = 0;
+const intervalID = setInterval(() => {
+  console.log("counter", count++);
+}, 1000);
+
+setTimeout(() => {
+  clearInterval(intervalID);
+}, 10000);
