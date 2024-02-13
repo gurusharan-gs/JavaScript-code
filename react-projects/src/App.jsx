@@ -2,6 +2,7 @@ import "./App.css";
 import Password from "./components/Password";
 import RandomColor from "./components/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
+import ModelText from "./components/custom-model-popup/ModelText";
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
         {/* <RandomColor /> */}
 
         {/* Star Rating */}
-        <StarRating />
+        {/* <StarRating /> */}
+
+        {/* custom model popup */}
+        <ModelText />
       </div>
     </>
   );
