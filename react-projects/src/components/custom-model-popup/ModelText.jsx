@@ -14,7 +14,7 @@ const ModelText = () => {
   };
 
   return (
-    <div>
+    <div className="open-model">
       <button onClick={handleToggleModelPopup}>open model popup</button>
       {showModelPopup && (
         <Model onClose={onClose} body={<div> customized body </div>} />

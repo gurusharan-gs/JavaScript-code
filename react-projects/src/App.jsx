@@ -3,6 +3,7 @@ import Password from "./components/Password";
 import RandomColor from "./components/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
 import ModelText from "./components/custom-model-popup/ModelText";
+import GithubProfile from "./components/githubProfile/GithubProfile";
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
         {/* <StarRating /> */}
 
         {/* custom model popup */}
-        <ModelText />
+        {/* <ModelText /> */}
+
+        {/* Github Profile */}
+        <GithubProfile />
       </div>
     </>
   );
