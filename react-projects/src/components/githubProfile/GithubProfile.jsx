@@ -35,7 +35,7 @@ const GithubProfile = () => {
   }, []);
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <h1 style={{ textAlign: "center" }}>Loading...</h1>;
   }
   if (err) {
     return <h1>Something want wrong...</h1>;
@@ -47,7 +47,7 @@ const GithubProfile = () => {
         <input
           type="text"
           name="search-by-name"
-          placeholder="Search GitHub profile.."
+          placeholder="Search GitHub Profile.."
           value={userName}
           onChange={(e) => setUserName(e.target.value)}
         />
