@@ -54,7 +54,7 @@ let { ...rest } = obj;
 //   b();
 // }
 // a();
-
+/*
 function a() {
   for (var i = 1; i <= 5; i++) {
     setTimeout(() => {
@@ -84,3 +84,47 @@ function x() {
   }
 }
 x();
+
+*/
+
+/**
+ * Types of functions
+ * 
+ * function statement or function declaration
+   function a(){
+    console.log("a calling")
+   }
+
+
+ * function Expression
+   var b = function (){
+    console.log("b calling")
+   }
+
+   
+ * Anonymous function
+    function (){
+    console.log("anonymous calling")
+   }
+
+   
+ * Named function Expression
+   var b = function xyz(){
+    console.log("b calling")
+   }
+
+   
+ * Arrow function 
+   var b = () => {
+    console.log("b calling")
+   }
+
+   first class function
+   var x = function (){
+    return function xyz(){
+
+    }
+   }
+   console.log(b())
+  
+ */
