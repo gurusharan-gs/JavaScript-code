@@ -6,11 +6,17 @@ import ModelText from "./components/custom-model-popup/ModelText";
 import GithubProfile from "./components/githubProfile/GithubProfile";
 import SearchAutocomplete from "./components/search-autocomplete-with-api/SearchAutocomplete";
 import TicTacToe from "./components/tic-tack-toe/TicTacToe";
+import Count from "./components/counter/Count";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollToTopAndBottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/ScrollToSection";
 
 function App() {
   return (
     <>
       <div>
+        {/* Count */}
+        {/* <Count /> */}
+
         {/* password */}
         {/* <Password /> */}
 
@@ -30,7 +36,13 @@ function App() {
         {/* <SearchAutocomplete /> */}
 
         {/* Tic Tac Toe */}
-        <TicTacToe />
+        {/* <TicTacToe /> */}
+
+        {/* Scroll To Top And Bottom */}
+        {/* <ScrollToTopAndBottom /> */}
+
+        {/* Scroll To particular Section */}
+        <ScrollToSection />
       </div>
     </>
   );
