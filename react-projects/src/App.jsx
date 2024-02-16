@@ -4,6 +4,8 @@ import RandomColor from "./components/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
 import ModelText from "./components/custom-model-popup/ModelText";
 import GithubProfile from "./components/githubProfile/GithubProfile";
+import SearchAutocomplete from "./components/search-autocomplete-with-api/SearchAutocomplete";
+import TicTacToe from "./components/tic-tack-toe/TicTacToe";
 
 function App() {
   return (
@@ -22,7 +24,13 @@ function App() {
         {/* <ModelText /> */}
 
         {/* Github Profile */}
-        <GithubProfile />
+        {/* <GithubProfile /> */}
+
+        {/* Search Autocomplete */}
+        {/* <SearchAutocomplete /> */}
+
+        {/* Tic Tac Toe */}
+        <TicTacToe />
       </div>
     </>
   );

@@ -58,7 +58,7 @@ const RandomColor = () => {
             borderRadius: "50px",
             outline: "none",
             border: "none",
-            background: "blue",
+            // background: "blue",
             color: "white",
             fontWeight: "bold",
           }}
