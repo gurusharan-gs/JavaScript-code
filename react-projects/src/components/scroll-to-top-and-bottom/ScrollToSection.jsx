@@ -51,11 +51,17 @@ const ScrollToSection = () => {
     <div>
       <h1>Scroll To Section</h1>
       <button onClick={handleScrollToSection}>click to scroll</button>
+      {/* <button onClick={handleScrollToSection}>click to scroll</button> */}
       {data.map((item, index) => (
         <div ref={index === 2 ? ref : null} key={index} style={item.style}>
           {item.label}{" "}
         </div>
       ))}
+      {/* {data.map((item, index) => (
+        <div ref={index === 1 ? ref : null} key={index} style={item.style}>
+          {item.label}{" "}
+        </div>
+      ))} */}
     </div>
   );
 };

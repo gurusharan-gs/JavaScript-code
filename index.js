@@ -90,7 +90,7 @@ x();
 /**
  * Types of functions
  * 
- * function statement or function declaration
+ * function statement or function declaration or named function
    function a(){
     console.log("a calling")
    }
