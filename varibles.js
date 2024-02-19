@@ -58,8 +58,34 @@ let bool = Boolean(boolean);
 // console.log(typeof NaN); // number
 
 // convert null value
-let myNull = null;
-console.log(myNull);
-let boolNull = Number(myNull);
-console.log(typeof boolNull);
-console.log(boolNull);
+// let myNull = null;
+// console.log(myNull);
+// let boolNull = Number(myNull);
+// console.log(typeof boolNull);
+// console.log(boolNull);
+
+// let a = 3;
+// let b = a++;
+
+// console.log(a);
+// console.log(b);
+
+// let x = 3;
+// let y = ++x;
+
+// console.log(x);
+// console.log(y);
+
+/**  compere two values */
+
+// console.log(2 > 1); // true
+// console.log(2 < 3); // true
+// console.log(2 < 1); // false
+// console.log(4 > 1); // true
+// console.log(2 >= 3); // false
+// console.log(3 >= 3); // true
+// console.log(5 == 3); // false
+// console.log(5 != 3); // true
+
+// console.log("4" > 3)  // true
+// console.log("4" < 3)  // false
