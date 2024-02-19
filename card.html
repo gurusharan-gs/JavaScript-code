@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <title>Product Card</title>
+
+     <style>
+          /* styles.css */
+          .product-card {
+               border: 1px solid #ccc;
+               padding: 10px;
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               border: 1px solid;
+               width: 150px;
+          }
+
+          .product-card img {
+               width: 100%;
+               margin-right: 10px;
+          }
+
+          .product-info {
+               flex-grow: 1;
+          }
+
+          .category {
+               font-weight: bold;
+          }
+
+          .discounted-price {
+               color: green;
+          }
+
+          .original-price {
+               text-decoration: line-through;
+               color: grey;
+          }
+
+          .discount {
+               color: red;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="product-card">
+          <img src="https://i.ibb.co/23StKfC/5e3aa027808d.jpg" alt="Fashion Dress">
+          <div class="product-info">
+               <p class="category">FASHION</p>
+               <p class="description">Georgette Blend Stitched Flared/A-line Dress</p>
+               <p class="price">
+                    <span class="discounted-price">₹1739</span>
+                    <span class="original-price">₹4999</span>
+                    <span class="discount">65% off</span>
+               </p>
+          </div>
+     </div>
+</body>
+
+</html>
