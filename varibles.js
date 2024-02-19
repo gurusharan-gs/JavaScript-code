@@ -25,11 +25,11 @@ let isLoggedIn = true;
 // console.log(typeof age);
 // console.log(typeof isLoggedIn);
 
-let number = "33";
+// let number = "33";
 // console.log(number);
 // console.log(typeof number);
 
-let strToNumber = Number(number);
+// let strToNumber = Number(number);
 // console.log(strToNumber);
 // console.log(typeof strToNumber);
 
@@ -41,11 +41,11 @@ let num = Number(str);
 // console.log(num); // NaN
 // console.log(typeof num); // number
 
-let boolean = 0;
+// let boolean = 0;
 // console.log(typeof boolean);
 // console.log(boolean);
 
-let bool = Boolean(boolean);
+// let bool = Boolean(boolean);
 // console.log(typeof bool);
 // console.log(bool);
 
@@ -89,3 +89,37 @@ let bool = Boolean(boolean);
 
 // console.log("4" > 3)  // true
 // console.log("4" < 3)  // false
+
+/**  javascript data types
+ * Primitive data types
+ * 1 Number
+ * 2 String
+ * 3 Boolean
+ * 4 null
+ * 5 undefined
+ * 6 symbol
+ * 7 BigInt
+ *
+ * No Primitive data types
+ * 1 Array
+ * 2 Object
+ * 3 function
+ * 4 data
+ *
+ */
+
+// let number = 12;
+// let string = "gutu";
+// let boolean = true;
+// let nullIs = null;
+// let sum;
+// let symbol = Symbol(123);
+// let BigInt = 123456794555n;
+
+// console.log(typeof number, number); // number
+// console.log(typeof string, string); // string
+// console.log(typeof boolean, boolean); // boolean
+// console.log(typeof nullIs, nullIs); // object
+// console.log(typeof sum, sum); // undefined
+// console.log(typeof symbol, symbol); // symbol
+// console.log(typeof BigInt, BigInt); // bigint
