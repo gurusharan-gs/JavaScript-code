@@ -123,3 +123,40 @@ let num = Number(str);
 // console.log(typeof sum, sum); // undefined
 // console.log(typeof symbol, symbol); // symbol
 // console.log(typeof BigInt, BigInt); // bigint
+
+/**             stack and heap          */
+/***   stack(primitive data types) store and heap(No primitive data types) store *** */
+
+let myName = "guru";
+let newName = myName;
+newName = "gurusharan";
+
+console.log(myName);
+console.log(newName);
+
+/** 
+ 1 here value is not changing instant new value assigning to that variable
+ 2 variable give the copy of that value they don't change 
+ 3 variable are immutable
+
+*/
+
+// heap(No primitive data types)
+let userOne = {
+  user: "user@gmail.com",
+  id: 12,
+};
+
+let userTwo = userOne;
+userTwo.user = "user@javascript.com";
+
+console.log(userOne);
+console.log(userTwo);
+
+/** 
+ 1 variable are changes here because variable point out to directly present value
+ 2 variable store directly in heap memory 
+ 3 variable are mutable
+ 4 
+
+*/
