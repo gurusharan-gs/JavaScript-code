@@ -9,6 +9,8 @@ import TicTacToe from "./components/tic-tack-toe/TicTacToe";
 import Count from "./components/counter/Count";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollToTopAndBottom";
 import ScrollToSection from "./components/scroll-to-top-and-bottom/ScrollToSection";
+import BgChanger from "./components/bgChanger/BgChanger";
+import PasswordGenerator from "./components/passwordGenerator/PasswordGenerator";
 
 function App() {
   return (
@@ -42,7 +44,13 @@ function App() {
         {/* <ScrollToTopAndBottom /> */}
 
         {/* Scroll To particular Section */}
-        <ScrollToSection />
+        {/* <ScrollToSection /> */}
+
+        {/* BgChanger */}
+        {/* <BgChanger /> */}
+
+        {/* Password Generator  */}
+        <PasswordGenerator />
       </div>
     </>
   );
