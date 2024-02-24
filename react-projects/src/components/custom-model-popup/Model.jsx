@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Model = ({ id, header, body, footer, onClose }) => {
+  const [options, setOptions] = useState("");
+
+  
+
   return (
     <div id={id || "Model"} className="model">
       <div className="model-content">
@@ -8,9 +12,8 @@ const Model = ({ id, header, body, footer, onClose }) => {
           <span onClick={onClose} className="close-model-icon">
             &times;
           </span>
-          <h2>{header ? header : "Header"}</h2>
         </div>
-        <div className="body">
+        {/* <div className="body">
           {body ? (
             body
           ) : (
@@ -18,8 +21,8 @@ const Model = ({ id, header, body, footer, onClose }) => {
               <p>This is our model</p>
             </div>
           )}
-        </div>
-        <div className="footer">{footer ? footer : <h2>footer</h2>}</div>
+        </div> */}
+        {/* <div className="footer">{footer ? footer : <h2>footer</h2>}</div> */}
       </div>
     </div>
   );

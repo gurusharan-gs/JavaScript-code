@@ -11,6 +11,7 @@ import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollTo
 import ScrollToSection from "./components/scroll-to-top-and-bottom/ScrollToSection";
 import BgChanger from "./components/bgChanger/BgChanger";
 import PasswordGenerator from "./components/passwordGenerator/PasswordGenerator";
+import Products from "./components/productListFillter/Products";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         {/* <StarRating /> */}
 
         {/* custom model popup */}
-        {/* <ModelText /> */}
+        <ModelText />
 
         {/* Github Profile */}
         {/* <GithubProfile /> */}
@@ -50,7 +51,10 @@ function App() {
         {/* <BgChanger /> */}
 
         {/* Password Generator  */}
-        <PasswordGenerator />
+        {/* <PasswordGenerator /> */}
+
+        {/* filtered Products */}
+        {/* <Products /> */}
       </div>
     </>
   );
